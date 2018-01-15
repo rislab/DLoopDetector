@@ -50,10 +50,10 @@ namespace DLoopDetector
 {
 }
 
-#include "DBoW2.h"
-#include "TemplatedLoopDetector.h"
-#include "FORB.h"
-#include "FBrief.h"
+#include <DBoW2/DBoW2.h>
+#include <DLoopDetector/TemplatedLoopDetector.h">
+#include <DBoW2/FORB.h>
+#include <DBoW2/FBrief.h>
 
 /// SURF64 Loop Detector
 typedef DLoopDetector::TemplatedLoopDetector
